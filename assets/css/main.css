@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+.clear::after
+{
+	content: " ";
+	display: block;
+}
+
+.clear::after
+{
+	clear: both;
+}
+
+.container
+{
+	max-width: 1200px;
+	margin: 0 auto;
+}

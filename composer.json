@@ -1,0 +1,23 @@
+{
+	"name": "projectnamespace/website",
+	"description": "miBadger test",
+	"type": "project",
+	"keywords": [
+		"mibadger",
+		"test",
+		"website"
+	],
+	"homepage": "https://www.mibadger.com",
+	"license": "proprietary",
+	"authors": [
+	],
+	"require": {
+		"php": "^7.0",
+		"mibadger/mibadger": "^0.3.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"ProjectNamespace\\Website\\": "src/"
+		}
+	}
+}
