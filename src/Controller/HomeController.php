@@ -18,7 +18,7 @@ use miBadger\Mvc\View;
  *
  * @since 1.0.0
  */
-class Home implements ControllerInterface
+class HomeController implements ControllerInterface
 {
 	/**
 	 * The index action.
@@ -28,6 +28,6 @@ class Home implements ControllerInterface
 		$page = new Page();
 		$page->setTitle('Home');
 
-		return View::get(__DIR__ . '/../View/Home.php', ['page' => $page]);
+		return View::get('Home.php', ['page' => $page]);
 	}
 }

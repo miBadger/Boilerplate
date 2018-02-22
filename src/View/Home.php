@@ -11,11 +11,11 @@ use miBadger\Mvc\View;
 
 ?>
 
-<?php echo View::get(__DIR__ . '/Header.php', ['title' => $page->getTitle()]); ?>
+<?php echo View::get('Header.php', ['title' => $page->getTitle()]); ?>
 
 <div class="container">
 	<h1>Home</h1>
 	<p>Hello world!</p>
 </div>
 
-<?php echo View::get(__DIR__ . '/Footer.php');  ?>
+<?php echo View::get('Footer.php'); ?>
